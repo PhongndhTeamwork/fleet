@@ -1,0 +1,147 @@
+.input-field {
+  line-height: 1.5;
+  background-color: $ui-light-grey;
+  border: solid 1px $ui-fleet-black-10;
+  border-radius: $border-radius;
+  font-size: $small;
+  padding: $pad-small $pad-medium;
+  color: $core-fleet-blue;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  height: 40px;
+  transition: border-color 100ms;
+  width: 100%;
+
+  &::placeholder {
+    color: $ui-fleet-black-50;
+  }
+
+  &:hover:not(.input-field--read-only) {
+    box-shadow: none;
+    border: 1px solid $core-vibrant-blue-over;
+  }
+
+  &:active:not(.input-field--read-only),
+  &:focus:not(.input-field--read-only),
+  &:focus-visible:not(.input-field--read-only) {
+    box-shadow: none;
+    outline: 0;
+    border: 1px solid $core-vibrant-blue-down;
+  }
+
+  &--disabled {
+    color: $ui-fleet-black-50;
+
+    .form-field__label,
+    .form-field__help-text {
+      color: $ui-fleet-black-50;
+    }
+  }
+
+  &--password {
+    letter-spacing: 4px;
+
+    &::placeholder {
+      letter-spacing: normal;
+    }
+  }
+
+  &--error {
+    color: $core-vibrant-red;
+    border: 1px solid $core-vibrant-red;
+    box-sizing: border-box;
+    border-radius: $border-radius;
+
+    &:focus {
+      border-color: $ui-error;
+      background-color: $core-white;
+      color: $core-fleet-black;
+    }
+  }
+
+  &__textarea {
+    min-height: 100px;
+    max-width: 100%;
+    display: block;
+  }
+
+  &__label {
+    display: block;
+    font-size: $medium;
+    font-weight: $regular;
+    color: $core-fleet-black;
+    margin-bottom: $pad-xsmall;
+
+    &--error {
+      font-weight: $bold;
+      color: $ui-error;
+    }
+  }
+
+  &__wrapper {
+    margin-bottom: $pad-medium;
+  }
+
+  &__help-text {
+    font-size: $x-small;
+    font-weight: $regular;
+    line-height: 1.57;
+    letter-spacing: 1px;
+    color: $core-fleet-blue;
+
+    code {
+      color: $core-vibrant-blue;
+      background-color: $ui-gray;
+      padding: $pad-xxsmall;
+      font-family: "SourceCodePro", $monospace;
+    }
+  }
+
+  &__copy-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__copy-wrapper-outside {
+    position: relative;
+    gap: $pad-medium;
+  }
+
+  &__copy-wrapper-inside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: $pad-xsmall;
+    background-color: $ui-light-grey;
+  }
+
+  &__input-container.copy-enabled {
+    &.copy-outside {
+      display: flex;
+      align-items: center;
+      gap: $pad-small;
+    }
+
+    &.copy-inside {
+      position: relative;
+    }
+  }
+
+  &__copied-confirmation {
+    font-size: $x-small;
+    background-color: $ui-light-grey;
+    border: solid 1px $ui-fleet-black-10;
+    border-radius: $border-radius-xlarge;
+    padding: $pad-xxsmall 6px;
+  }
+
+  &__copied-confirmation-outside {
+    margin-left: -81px;
+  }
+}
+
+// Removes arrows on Firefox number fields
+input[type="number"] {
+  -moz-appearance: textfield;
+}

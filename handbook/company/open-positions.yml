@@ -1,0 +1,114 @@
+# Example Open positon entry:
+# - jobTitle:
+#   department: 
+#   hiringManagerName: 
+#   hiringManagerLinkedInUrl: 
+#   hiringManagerGithubUsername:
+#   onTargetEarnings: (Optional) A range of on target earnings for this role. If provided, this will replace the default range ('$48,000 - $480,000') on the page for this position.
+#   responsibilities: |
+#     Add markdown content to this field.
+#   experience: |
+#     Add markdown content to this field.
+################################################
+
+- jobTitle: 🚀 Software Engineer
+  department: Engineering
+  hiringManagerName: Luke Heath
+  hiringManagerGithubUsername: LukeHeath
+  hiringManagerLinkedInUrl: https://www.linkedin.com/in/lukeheath/
+  responsibilities: |
+      - 🧑‍🔬 Design, develop, test, and maintain a state-of-the-art Golang application that includes robust APIs to support mobile and desktop clients.
+      - 🛠 Write code and tests, build prototypes, resolve issues, and profile and analyze bottlenecks.
+      - 💭 Manage and optimize scalable distributed systems in the cloud.
+      - 🤝 Collaborate closely with product managers to understand requirements and translate them into actionable specifications.
+      - 🚀 Actively participate in all engineering scrum meetings, including sprint planning, daily standups, sprint demos, sprint retrospectives, and estimation sessions.
+      - 🌟 Contribute to the overall success of the [MDM](https://fleetdm.com/handbook/company/product-groups#mdm-group) product group by ensuring users receive valuable new features.
+  experience: |
+      - 💭 3-5 years of experience in backend/SaaS development.
+      - 🦉 Proficient in backend development. You practice OOP design and are comfortable in a lean software development environment. 
+      - 🦉 Translate requirements into well-designed and functional software.
+      - 🤝 Communicate regularly with stakeholders, project managers, quality assurance teams, and other developers regarding progress on long-term technology roadmap.
+      - 🧪 Collaborate with QA team for testing software features.
+      - 🏃‍♂️ Familiarity with agile development processes and scrum methodologies.
+      - 🛠️ Produce quality code, raising the bar for team performance and speed.
+      - 📖 Mentor junior team members.
+      - 🤝 Collaboration: You work best in a participatory, team-based environment.
+      - 🚀 Prototype-first: You embrace speed and failure as we iterate towards the right solution. You have hands-on experience in creating low and high-fidelity prototypes. You’re comfortable accepting suboptimal designs in favor of iteration.
+      - 🧬 Simplicity: You love complex questions and use your work to simplify that complexity for users.
+      - 🛠️ Technical: You understand the software development processes. You understand that software quality matters.
+      - 🟣 Openness: You are flexible and open to new ideas and ways of working.
+      - ➕ Bonus: Cybersecurity or IT background.
+      
+- jobTitle: 🌦️ Customer Support Engineer
+  department: Sales
+  hiringManagerName: Zay Hanlon
+  hiringManagerGithubUsername: zayhanlon
+  hiringManagerLinkedInUrl: https://www.linkedin.com/in/zayhanlon/
+  responsibilities: |
+      - 🏋🏻 Leverage technical expertise to assist Customer Success and Engineering to refine Fleet's troubleshooting processes and ensure seamless access to documentation and the Fleet repo.
+      - 🚀 Deploy Fleet on your own in complex environments to gain firsthand insights into the customer experience and proactively identify areas for improvement. 
+      - ⏫ Work hand-in-hand with Customer Success by participating in calls with customers to discuss support issues, diagnose challenges, propose solutions, and drive long-term adoption.
+      - 🥇 Be the first line of defense in customer Slack channels for any reported problems, how-to questions, feature request intake, and bug report filling.
+      - 🎯 Strong attention to detail and can act as an encyclopedia of knowledge about how Fleet works - our customers represent a wide range of needs across many different use cases. Be adaptable to learning new things quickly and then share this knowledge with others.
+      - 💡 Excellent communication and collaboration skills, with the ability to work closely with customer success, engineering, and product teams.
+      - 👥 A customer-centric mindset, focusing on delivering value and a positive user experience.
+  experience: |
+      - 🦉 Experience: 2-3 years of work experience supporting Windows, Linux, and MacOS devices. Experience with AWS, SQL, Redis, Terraform, and osquery. 
+      - 💭 IT background, experience with device management solutions like Fleet, Intune, Jamf Pro, Workspace One, etc.
+      - 🛠️ Communication: You are outgoing, customer-facing, and enjoy problem-solving while assisting external stakeholders.
+      - 🟣 Openness: You are flexible and open to new ideas and ways of working.
+      - 💖 An excellent understanding of macOS, Windows, Linux and core services like Autopilot, ABM/ASM, MDM, ADE, APNs, syslog, etc.
+      - ✍️ Familiarity with SQLite, shell scripting, Python, Powershell, and using the terminal to execute commands or run scripts is a bonus. 
+      - 🧑‍🔬 Experience working with enterprise customers to help resolve complex technical issues.
+
+
+- jobTitle: 🌦️ Customer Solutions Architect
+  department: Customers
+  hiringManagerName: Zay Hanlon
+  hiringManagerGithubUsername: zayhanlon
+  hiringManagerLinkedInUrl: https://www.linkedin.com/in/zayhanlon/
+  responsibilities: |
+      - ⏫ Own post-sales technical relationships with Fleet customers, managing multiple customer environments and technical escalations with confidence and clarity.
+      - 🌡️ Partner closely with customers and internal teams to define onboarding plans, set success criteria, and guide deployments from kickoff through adoption.
+      - 🪴 Champion product adoption, technical health, and customer advocacy by building strong relationships with key stakeholders.
+      - 🕴️ Use data and tooling to track deployment progress, customer health, and engagement, keeping everything organized and visible for the broader team.
+      - 🚀 Work cross-functionally with product and engineering to represent customer needs and help prioritize the roadmap with real-world feedback.
+      - 📈 Proactively identify blockers and risk indicators that could impact customer success or retention, and work quickly to address them. 
+      - 💡 Communicate clearly and confidently, with both internal stakeholders and customer executives, engineers, or technical admins.
+      - 🧪 Comfort navigating Slack, Salesforce, Google Suite, and GitHub to stay in sync and get work done.
+  experience: |
+      - 💭 Extensive background in device management working with, deploying, and supporting tools (like Fleet, Intune, Jamf Pro, Workspace One, etc).
+      - 💖 Skilled at balancing technical escalations, renewals, and day-to-day priorities without losing sight of what matters most for the customer.
+      - ✍🏽 Able to influence technical stakeholders—from hands-on engineers to executives—and build alignment around Fleet's value.
+      - 🧬 You genuinely care about delivering a fantastic customer experience and ensuring their voice is heard inside Fleet.
+      - 🧑‍🔬 Experience working with enterprise customers on complex technical challenges, acting as the main technical point of contact throughout their journey.
+      - 🤝 Collaboration: You thrive in a team setting, know when to lead and when to listen, and are equally comfortable strategizing or rolling up your sleeves.
+      - 🦉 5+ years of experience supporting enterprise customers in the device management space, while working on custom scripts and 'solutioning' of workflows that don't exist in the current toolkit.
+      - 🛠️ You’re a natural communicator, enjoy being customer-facing, and bring a problem-solving mindset to every interaction.
+      - ➕ Bonus: Familiarity with osquery, SQLite, GitOps workflows, Terraform, Tines/Torq, and open source tools. Experience working alongside IT, SRE, CPE, or SecOps teams.
+
+
+- jobTitle: 🎐 Solutions Consultant
+  department: Sales
+  hiringManagerName: Mike Mcneil
+  hiringManagerLinkedInUrl: https://www.linkedin.com/in/mikermcneil/
+  hiringManagerGithubUsername: mikermcneil
+  responsibilities: |
+      - ⏫ Work hand-in-hand with the Sales team by participating in calls with potential customers to show them a demonstration of Fleet in action.
+      - 📖 You’ll provide commentary, detailed technical explanations, examples from your experience, and answer customer questions based on your experience managing Apple, Windows, and Linux devices with MDM and other tools (osquery).
+      - 🏃‍♂️ Provide internal technical training, and participate in sales enablement activities to ensure our team is prepared to explain how Fleet works, where we fit in the Security and IT ecosystem, and how we can solve problems with our customers. 
+  experience: |
+      - 🦉 3+ years of experience in a technical sales role (Solutions Consultant, Sales Engineer, Solutions Architect, Technical Account Manager, etc) in the device management or cybersecurity space.
+      - 🧑‍🔬 Experience working with Enterprise customers to help resolve complex technical issues.
+      - 💭 Cybersecurity or IT background, experience with device management solutions like Fleet, Intune, Jamf Pro, Workspace One, etc. in addition to EDR platforms like Crowdstrike, SentinelOne, CarbonBlack, etc. 
+      - ➕ Familiarity with GitOps workflows and steps to contribute code in open source projects.
+      - 🛠️ Has deployed infrastructure via some form of CI tooling to at least one of the big cloud platforms and lived to tell the tale.
+      - 💖 An excellent understanding of macOS, Windows, Linux and core services like Autopilot, ABM/ASM, MDM, ADE, APNs, syslog, etc.
+      - ✍️ Familiarity with SQLite, shell scripting, Python, Powershell, and using Terminal to execute commands or run scripts.
+      - 🎯 Strong attention to detail and can act as an encyclopedia of knowledge about how Fleet works - our potential customers represent a wide range of needs across many different use cases. Be adaptable to learning new things quickly and then share this knowledge with others.
+      - 💡 Excellent communication and collaboration skills, with the ability to work closely with sales, engineering, and product teams.
+      - 🌐 Coordinate with our Customer Success team to assist with any technical questions during renewal discussions. You’ll be a resource for existing customers too.
+      - 👥 A customer-centric mindset, focusing on delivering value and a positive user experience.
+      - 🤝 Collaboration: You work best in a participatory, team-based environment.
+      - 🟣 Openness: You are flexible and open to new ideas and ways of working.
+      - ➕ Bonus: Familiarity with osquery, SQLite, GitOps workflows, Terraform, Tines/Torq, and open source tools. Experience working alongside IT, SRE, CPE, or SecOps teams.

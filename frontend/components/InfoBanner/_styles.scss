@@ -1,0 +1,38 @@
+.info-banner {
+  display: flex;
+  justify-content: space-between;
+  padding: $pad-medium;
+  font-size: $x-small;
+  font-weight: $regular;
+  color: $core-fleet-black;
+
+  &__page-banner {
+    padding: $pad-large $pad-xlarge;
+    margin-bottom: $pad-large;
+    width: auto;
+  }
+
+  &__info {
+    p {
+      margin: $pad-small 0 0 0;
+    }
+  }
+
+  &__cta {
+    display: flex;
+    align-items: center;
+    color: $core-fleet-black;
+    text-align: right;
+    gap: $pad-small;
+    min-width: max-content;
+    margin-left: $pad-small;
+
+    button {
+      margin-left: $pad-small;
+    }
+  }
+
+  &__close {
+    margin: -$pad-small; // Offset clickable padding from making banner taller
+  }
+}
